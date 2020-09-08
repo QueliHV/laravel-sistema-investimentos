@@ -24,7 +24,13 @@ class Controller extends BaseController
         echo "Cadastrar";
     }
 
-    public function fazerLogin(){
-        echo "Fazer Login";
+    /**
+     * method to user login VIEW
+     * 
+     */
+    public function fazerLogin()
+    {
+       return view('user.login');
+        
     }
 }
